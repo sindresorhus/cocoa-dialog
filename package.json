@@ -1,0 +1,42 @@
+{
+  "name": "cocoa-dialog",
+  "version": "0.0.0",
+  "description": "Display common GUI dialogs on macOS using cocoaDialog",
+  "license": "MIT",
+  "repository": "sindresorhus/cocoa-dialog",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cocoaDialog.app"
+  ],
+  "keywords": [
+    "cocoadialog",
+    "cocoa",
+    "dialog",
+    "prompt",
+    "window",
+    "box",
+    "gui",
+    "util",
+    "utility",
+    "macos"
+  ],
+  "dependencies": {
+    "dargs": "^4.1.0",
+    "execa": "^0.4.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}

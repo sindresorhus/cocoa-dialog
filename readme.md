@@ -4,7 +4,7 @@
 
 <img src="screenshot.png" width="540">
 
-*Issues regarding the GUI should be opened on the cocoaDialog [issue tracker](https://github.com/mstratman/cocoadialog).*
+*Issues regarding the GUI should be opened on the cocoaDialog [issue tracker](https://github.com/mstratman/cocoadialog/issues).*
 
 
 ## Install
@@ -67,7 +67,7 @@ See the [cocoaDialog docs](http://mstratman.github.io/cocoadialog/#documentation
 
 Type: `Object`
 
-Any of the options defined in the [cocoaDialog docs](http://mstratman.github.io/cocoadialog/#documentation3.0) can be used in a camelcased form.<br>
+Any of the options defined in the [cocoaDialog docs](http://mstratman.github.io/cocoadialog/#documentation3.0) can be used in a camelCased form.<br>
 For example, `‑‑informative‑text` should be `informativeText: true`.
 
 

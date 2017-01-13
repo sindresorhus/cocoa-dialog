@@ -1,6 +1,6 @@
 {
   "name": "cocoa-dialog",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Display common GUI dialogs on macOS using cocoaDialog",
   "license": "MIT",
   "repository": "sindresorhus/cocoa-dialog",

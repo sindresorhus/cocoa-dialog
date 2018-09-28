@@ -1,11 +1,11 @@
 import test from 'ava';
-import m from './';
+import cocoaDialog from '.';
 
-test(async t => {
+test('main', async t => {
 	if (process.env.CI) {
 		t.pass();
 		return;
 	}
 
-	t.is(await m('ok-msgbox', {text: 'Click OK'}), '1');
+	t.is(await cocoaDialog('ok-msgbox', {text: 'Click OK'}), '1');
 });

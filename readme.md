@@ -1,16 +1,16 @@
 # cocoa-dialog [![Build Status](https://travis-ci.org/sindresorhus/cocoa-dialog.svg?branch=master)](https://travis-ci.org/sindresorhus/cocoa-dialog)
 
-> Display common GUI dialogs on macOS using [cocoaDialog](http://mstratman.github.io/cocoadialog/#documentation3.0)
+> Display common GUI dialogs on macOS using [cocoaDialog](https://github.com/cocoadialog/cocoadialog)
 
 <img src="screenshot.png" width="540">
 
-*Issues regarding the GUI should be opened on the cocoaDialog [issue tracker](https://github.com/mstratman/cocoadialog/issues).*
+*Issues regarding the GUI should be opened on the cocoaDialog [issue tracker](https://github.com/cocoadialog/cocoadialog/issues).*
 
 
 ## Install
 
 ```
-$ npm install --save cocoa-dialog
+$ npm install cocoa-dialog
 ```
 
 
@@ -19,19 +19,21 @@ $ npm install --save cocoa-dialog
 ```js
 const cocoaDialog = require('cocoa-dialog');
 
-cocoaDialog('msgbox', {
-	title: 'Unicorn',
-	icon: 'favorite',
-	text: 'What do you want?',
-	button1: 'Gimme rainbow',
-	button2: 'Magicalifify'
-}).then(result => {
+(async () => {
+	const result = await cocoaDialog('msgbox', {
+		title: 'Unicorn',
+		icon: 'favorite',
+		text: 'What do you want?',
+		button1: 'Gimme rainbow',
+		button2: 'Magicalifify'
+	});
+
 	if (result === '1') {
 		console.log('button1 clicked');
 	} else if (result === '2') {
 		console.log('button2 clicked');
 	}
-});
+})();
 ```
 
 

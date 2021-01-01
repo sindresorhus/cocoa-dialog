@@ -1,4 +1,4 @@
-# cocoa-dialog [![Build Status](https://travis-ci.org/sindresorhus/cocoa-dialog.svg?branch=master)](https://travis-ci.org/sindresorhus/cocoa-dialog)
+# cocoa-dialog
 
 > Display common GUI dialogs on macOS using [cocoaDialog](https://github.com/cocoadialog/cocoadialog)
 

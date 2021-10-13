@@ -1,5 +1,6 @@
+import process from 'node:process';
 import test from 'ava';
-import cocoaDialog from '.';
+import cocoaDialog from './index.js';
 
 test('main', async t => {
 	if (process.env.CI) {
